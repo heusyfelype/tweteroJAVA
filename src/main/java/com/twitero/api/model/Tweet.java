@@ -18,6 +18,10 @@ public class Tweet {
     this.tweet = data.tweet();
   }
 
+  public Tweet() {
+
+  }
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
